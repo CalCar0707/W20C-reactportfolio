@@ -1,19 +1,12 @@
 import React from 'react';
+import Navigation from './Navigation';
 
-function WelcomeHeader() {
+export default function WelcomeHeader() {
     return (
         <header>
             <h1>Callie Baliles</h1>
-            <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                    <li>Resume</li>
-                </ul>
-            </nav>
+            <Navigation />
         </header>
     );
 };
 
-export default WelcomeHeader;
