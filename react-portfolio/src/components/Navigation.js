@@ -5,10 +5,18 @@ export default function Navigation() {
         <nav className="main-header-menu">
            
                 <ul>
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                    <li>Resume</li>
+                    <a href="#">
+                        <li>About Me</li>
+                        </a>
+                    <a href="#">
+                        <li>Portfolio</li>
+                        </a>
+                    <a href="#">
+                        <li>Contact</li>
+                        </a>
+                    <a href="#">
+                        <li>Resume</li>
+                        </a>
                 </ul>
             
         </nav>
