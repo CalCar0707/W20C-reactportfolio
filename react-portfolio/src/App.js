@@ -3,10 +3,10 @@ import React from 'react';
 import './App.css';
 
 //importing components
-import WelcomeHeader from './components/Header';
+import Project from './components/Project';
 
 function App() {
-  return <WelcomeHeader />;
+  return <Project />;
 }
 
 export default App;
