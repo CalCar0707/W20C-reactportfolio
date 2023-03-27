@@ -2,22 +2,17 @@ import React from "react";
 import WelcomeHeader from "./Header";
 import Footer from "./Footer";
 
-const picture = (
-    <div>
-        <img src="./portfolio pic.jpg" />
-    </div>
-)
+import profilePic from './../img/portfolio pic.jpg';
 
-const aboutMe = (
-    <div>
-        <picture />
-    </div>
-)
 
 export default function Project(){
     return (
         <div>
             <WelcomeHeader />
+            <div className="about-me">
+                <img src={profilePic} className="profilepic" alt="developer pic" />
+                
+            </div>
 
         </div>
     );
