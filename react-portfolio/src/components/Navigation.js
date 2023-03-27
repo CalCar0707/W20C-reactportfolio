@@ -1,11 +1,12 @@
 import React from "react";
+import Project from "./Project";
 
 export default function Navigation() {
     return (
-        <nav className="main-header-menu">
+        <nav className="navmenu">
            
                 <ul>
-                    <a href="#">
+                    <a href="#about-me">
                         <li>About Me</li>
                         </a>
                     <a href="#">

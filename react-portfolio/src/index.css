@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 90px;
+  padding: 30px;
 }
 
 code {
@@ -16,4 +18,31 @@ code {
   border-radius: 50%;
   width: 440px;
   height: 500px;
+}
+
+header{
+  background-color: lightseagreen;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-left: 40px;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+  color: black;
+  text-decoration: none;
 }

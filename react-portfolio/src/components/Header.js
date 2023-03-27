@@ -6,11 +6,11 @@ import Footer from './Footer';
 export default function WelcomeHeader() {
     return (
         <div>
-            <header>
+            <header className="nav-menu">
             <h1>Callie Baliles</h1>
             <Navigation />
             </header>
-            <Form />
+            
             
         </div>
     );
