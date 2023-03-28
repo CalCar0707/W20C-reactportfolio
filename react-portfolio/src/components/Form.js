@@ -15,22 +15,22 @@ export default function Form () {
     console.log(conForm)
   }
   return (
-    <div className="container mt-5">
-      <h2 className="mb-3">Contact the Developer</h2>
+    <div className="container">
+      <h2>Contact the Developer</h2>
       <form onSubmit={handleFormSubmit}>
-        <div className="mb-3">
+        <div className="input-form">
           <label className="form-label" htmlFor="name">
             Name
           </label>
           <input className="form-control" type="text" id="name" required />
         </div>
-        <div className="mb-3">
+        <div className="input-form">
           <label className="form-label" htmlFor="email">
             Email
           </label>
           <input className="form-control" type="email" id="email" required />
         </div>
-        <div className="mb-3">
+        <div className="input-form">
           <label className="form-label" htmlFor="message">
             Message
           </label>

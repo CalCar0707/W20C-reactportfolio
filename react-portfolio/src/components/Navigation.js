@@ -12,10 +12,10 @@ export default function Navigation() {
                     <a href="#portfolio">
                         <li>Portfolio</li>
                         </a>
-                    <a href="#">
+                    <a href="#contact-form">
                         <li>Contact</li>
                         </a>
-                    <a href="#">
+                    <a href="#resume">
                         <li>Resume</li>
                         </a>
                 </ul>
