@@ -4,11 +4,11 @@ import Footer from "./Footer";
 import Form from "./Form";
 
 //import pics and screenshots
-import profilePic from './../img/portfolio pic.jpg';
-import weatherMe from './../img/weatherme-screenshot.png';
-import food4Thought from './../img/Food4thought-screenshot.png';
-import scheduler from './../img/scheduler-screenshot.png';
-import weather from './../img/weatherdash-screenshot.png';
+import profilePic from './img/portfolio pic.jpg';
+import weatherMe from './img/weatherme-screenshot.png';
+import food4Thought from './img/Food4thought-screenshot.png';
+import scheduler from './img/scheduler-screenshot.png';
+import weather from './img/weatherdash-screenshot.png';
 
 
 export default function Project(){
@@ -18,7 +18,7 @@ export default function Project(){
             <div id="about-me">
                 <h2>About Me</h2>
                 <img src={profilePic} className="profilepic" alt="developer pic" />
-                <p>Hello, my name is Callie and I'm a full stack web developer. ***ENTER MORE FOR BIO*** </p>
+                <p>Hello, my name is Callie and I'm a full stack web developer.  </p>
             </div>
             <div id="portfolio">
                 <h2>Portfolio</h2>
