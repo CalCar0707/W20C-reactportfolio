@@ -11,7 +11,7 @@ When the user visits the portfolio, they are taken to the main about me section.
 
 
 
-    ![portfolio1](src/img/portfolioscreenshot1.png)
+    ![portfolio1](/src/img/portfolioscreenshot1.png)
     
 
 
