@@ -20,19 +20,19 @@ export default function Form () {
       <form onSubmit={handleFormSubmit}>
         <div className="input-form">
           <label className="form-label" htmlFor="name">
-            Name
+            Name:   
           </label>
           <input className="form-control" type="text" id="name" required />
         </div>
         <div className="input-form">
           <label className="form-label" htmlFor="email">
-            Email
+            Email:   
           </label>
           <input className="form-control" type="email" id="email" required />
         </div>
         <div className="input-form">
           <label className="form-label" htmlFor="message">
-            Message
+            Message:   
           </label>
           <textarea className="form-control" id="message" required />
         </div>
