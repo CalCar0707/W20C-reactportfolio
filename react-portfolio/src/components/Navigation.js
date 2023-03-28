@@ -9,7 +9,7 @@ export default function Navigation() {
                     <a href="#about-me">
                         <li>About Me</li>
                         </a>
-                    <a href="#">
+                    <a href="#portfolio">
                         <li>Portfolio</li>
                         </a>
                     <a href="#">
