@@ -11,17 +11,17 @@ When the user visits the portfolio, they are taken to the main about me section.
 
 
 
-    <img src="src/img/portfolioscreenshot1.png" />
+    ![portfolio1](src/img/portfolioscreenshot1.png)
     
 
-    ```md
+
     ![portfolio2](src/img/portfolioscreenshot2.png)
-    ```
-
-    ```md
-    ![portfolio3](src/img/portfolioscreenshot3.png)
-    ```
     
-    ```md
+
+    
+    ![portfolio3](src/img/portfolioscreenshot3.png)
+  
+    
+    
     ![portfolio4](src/img/portflioscreenshot4.png)
-    ```
+    
