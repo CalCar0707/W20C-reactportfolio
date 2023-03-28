@@ -8,7 +8,7 @@ import profilePic from './../img/portfolio pic.jpg';
 import weatherMe from './../img/weatherme-screenshot.png';
 import food4Thought from './../img/Food4thought-screenshot.png';
 import scheduler from './../img/scheduler-screenshot.png';
-import weather from './../img/weatherdash-screenshot.jpg';
+import weather from './../img/weatherdash-screenshot.png';
 
 
 export default function Project(){
@@ -53,7 +53,7 @@ export default function Project(){
                     </a>
                     <img src={scheduler} className="projectpic" />
 
-                
+
                 
 
             </div>
