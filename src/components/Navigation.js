@@ -55,10 +55,10 @@ export default function Navigation() {
             {/* social  icons */}
             <div className='flex fixed flex-col top-[35%] left-0'>
                 <ul>
-                    <li>
-                        <a href='/'>
-                            Linkedin <FaFacebook />
-
+                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
+                        <a className='flex justify-between items-center w-full'
+                        href='https://www.linkedin.com/in/callie-baliles/'>
+                            Linkedin <FaLinkedin size={30} />
                         </a>
                     </li>
                 </ul>
