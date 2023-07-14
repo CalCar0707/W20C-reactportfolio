@@ -1,5 +1,4 @@
-import React from "react";
-import WelcomeHeader from "./Header";
+import React from 'react';
 import Footer from "./Footer";
 import Form from "./Form";
 
@@ -15,7 +14,6 @@ import movieSnackers from '../img/moviesnackersscreenshot.png';
 export default function Project(){
     return (
         <div>
-            <WelcomeHeader />
             <div id="about-me">
                 <h2>About Me</h2>
                 <img src={profilePic} className="profilepic" alt="developer pic" />
