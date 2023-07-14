@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navigation() {
+    const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
+
     return (
         <div className='fixed w-full h-[80px] flex jusitfy-between items-center px-4 bg-teal-600'>
            {/* add logo here */}
@@ -25,12 +28,12 @@ export default function Navigation() {
             </div>
 
             {/* hamburger */}
-            <div className='md:hidden z-10'>
-                <FaBars />
+            <div onClick={handleClick} className='md:hidden z-10'>
+                {!nav ? <FaBars /> : <FaTimes />}
             </div>
 
             {/* mobile menu */}
-            <div className='hidden absolute top-0 left-0 w-full h-screen bg-teal-600 flex flex-col justify-center items-center'>
+            <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-600 flex flex-col justify-center items-center'}>
             <ul>
                     <a href="#about-me">
                         <li className='py-6 text-4xl'>About Me</li>
