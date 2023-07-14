@@ -1,10 +1,12 @@
 import React from "react";
-import Project from "./Project";
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 export default function Navigation() {
     return (
-        <nav className="navmenu">
-           
+        <div className="fixed w-full h-[80px] flex jusitfy-between items-center px-4 bg-teal-600">
+           {/* add logo here */}
+           {/* menu */}
+           <div>
                 <ul>
                     <a href="#about-me">
                         <li>About Me</li>
@@ -19,8 +21,20 @@ export default function Navigation() {
                         <li>Resume</li>
                         </a>
                 </ul>
-            
-        </nav>
+            </div>
+            {/* hamburger */}
+            <div>
+                <FaBars />
+            </div>
+            {/* mobile menu */}
+            <div>
+
+            </div>
+            {/* social  icons */}
+            <div>
+
+            </div>
+        </div>
     );
 };
 
