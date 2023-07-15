@@ -58,7 +58,26 @@ export default function Navigation() {
                     <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2]'>
                         <a className='flex justify-between items-center w-full'
                         href='https://www.linkedin.com/in/callie-baliles/'>
-                            Linkedin <FaLinkedin size={30} />
+                            LinkedIn <FaLinkedin size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#e5e5e5]'>
+                        <a className='flex justify-between items-center w-full'
+                        href='https://github.com/CalCar0707'>
+                            GitHub <FaGithub size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]'>
+                        <a className='flex justify-between items-center w-full'
+                        href='/'>
+                            {/* still need to add email link */}
+                            Email <HiOutlineMail size={30} />
+                        </a>
+                    </li>
+                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#34A853]'>
+                        <a className='flex justify-between items-center w-full'
+                        href='https://docs.google.com/document/d/1mnMLtwlFz_M3X0xj0ZGpIMrN5BmgbWALRJ-om6Xoeo8/edit?usp=sharing'>
+                            Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>

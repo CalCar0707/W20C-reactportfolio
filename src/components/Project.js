@@ -1,5 +1,6 @@
 import React from 'react';
-import Footer from "./Footer";
+import {HiArrowNarrowRight} from 'react-icons/hi';
+import Logo from '../img/CB-sig-1.png';
 import Form from "./Form";
 
 //import pics and screenshots
@@ -13,11 +14,18 @@ import movieSnackers from '../img/moviesnackersscreenshot.png';
 
 export default function Project(){
     return (
-        <div>
-            <div id="about-me">
-                <h2>About Me</h2>
+        <div name='home' className='w-full h-screen'>
+
+            {/* container */}
+            <div id="about-me" className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
                 <img src={profilePic} className="profilepic" alt="developer pic" />
-                <p>Hello, my name is Callie and I'm a full stack web developer.  </p>
+                <p>Hello, my name is</p>
+                <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1>
+                <h2>I'm a Full Stack Developer.</h2>
+                {/* <p>small about me section</p> */}
+                <div>
+                    <button>View Work <HiArrowNarrowRight /></button>
+                </div>
             </div>
             <div id="portfolio">
                 <h2>Portfolio</h2>
@@ -67,12 +75,12 @@ export default function Project(){
                 <Form />
 
             </div>
-            <div id="resume">
+            {/* <div id="resume">
                 <h2>Resume</h2>
             </div>
-            <div className="footer">
+            {/* <div className="footer">
                 <Footer />
-            </div>
+            </div> */} 
         </div>
     );
 };
