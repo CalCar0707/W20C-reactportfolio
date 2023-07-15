@@ -5,14 +5,14 @@ import Form from "./Form";
 
 //import pics and screenshots
 import profilePic from '../img/portfolio pic.jpg';
-import weatherMe from '../img/weatherme-screenshot.png';
-import food4Thought from '../img/Food4thought-screenshot.png';
-import scheduler from '../img/scheduler-screenshot.png';
-import weather from '../img/weatherdash-screenshot.png';
-import movieSnackers from '../img/moviesnackersscreenshot.png';
+// import weatherMe from '../img/weatherme-screenshot.png';
+// import food4Thought from '../img/Food4thought-screenshot.png';
+// import scheduler from '../img/scheduler-screenshot.png';
+// import weather from '../img/weatherdash-screenshot.png';
+// import movieSnackers from '../img/moviesnackersscreenshot.png';
 
 
-export default function Project(){
+export default function Home(){
     return (
         <div name='home' className='w-full h-screen'>
 
@@ -24,10 +24,10 @@ export default function Project(){
                 <h2>I'm a Full Stack Developer.</h2>
                 {/* <p>small about me section</p> */}
                 <div>
-                    <button>View Work <HiArrowNarrowRight /></button>
+                    <button className='border-2 px-6 py-3 my-2 flex items-center'>View Work <HiArrowNarrowRight className='ml-3' /></button>
                 </div>
             </div>
-            <div id="portfolio">
+            {/* <div id="portfolio">
                 <h2>Portfolio</h2>
                 <h3>Movie Snackers</h3>
                 <a href="https://movie-snackers.herokuapp.com/">
@@ -66,15 +66,15 @@ export default function Project(){
                         Repository
                     </a>
                     <img src={scheduler} className="projectpic" alt=""/>
-
+ */}
 
                 
 
-            </div>
+            {/* </div>
             <div id="contact-form">
                 <Form />
 
-            </div>
+            </div> */}
             {/* <div id="resume">
                 <h2>Resume</h2>
             </div>

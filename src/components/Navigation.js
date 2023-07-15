@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import Logo from '../img/CB-sig-1.png';
+import Logo from '../img/CB-logo-4.png';
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
@@ -10,7 +10,7 @@ export default function Navigation() {
 
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-teal-600'>
-                <img src={Logo} alt='Logo Image' style={{width: '375px'}} />
+                <img src={Logo} alt='Logo Image' style={{width: '200px'}} />
            {/* menu */}
            <div>
                 <ul className='hidden md:flex'>

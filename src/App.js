@@ -4,13 +4,13 @@ import './App.css';
 
 //importing components
 import Navigation from './components/Navigation';
-import Project from './components/Project';
+import Home from './components/Home';
 
 function App() {
   return (
     <div>
       <Navigation />
-      <Project />
+      <Home />
   </div>
   )
 };
