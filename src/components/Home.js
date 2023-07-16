@@ -1,6 +1,6 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
-import Logo from '../img/CB-sig-1.png';
+import Logo from '../img/CB-sig-2.1.png';
 import Form from "./Form";
 
 //import pics and screenshots
@@ -21,7 +21,8 @@ export default function Home(){
                 <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />
                 <div className='flex flex-col justify-center '>
                 <p>Hello, my name is</p>
-                <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1>
+                <img src={Logo} className=''/>
+                {/* <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1> */}
                 <h2>I'm a Full Stack Developer.</h2>
                 {/* <p>small about me section</p> */}
                 <div>
