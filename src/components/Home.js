@@ -17,14 +17,16 @@ export default function Home(){
         <div name='home' className='w-full h-screen'>
 
             {/* container */}
-            <div id="about-me" className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-                <img src={profilePic} className="profilepic" alt="developer pic" />
+            <div className='max-w-[1000px] mx-auto px-8 pt-[200px] flex flex-row justify-center content-center'>
+                <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />
+                <div className='flex flex-col justify-center '>
                 <p>Hello, my name is</p>
                 <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1>
                 <h2>I'm a Full Stack Developer.</h2>
                 {/* <p>small about me section</p> */}
                 <div>
                     <button className='border-2 px-6 py-3 my-2 flex items-center'>View Work <HiArrowNarrowRight className='ml-3' /></button>
+                </div>
                 </div>
             </div>
             {/* <div id="portfolio">
