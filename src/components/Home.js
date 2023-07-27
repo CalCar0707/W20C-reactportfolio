@@ -1,6 +1,7 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import Logo from '../img/CB-sig-2.1.png';
+import Background from '../img/bg-1.jpg';
 import Form from "./Form";
 
 //import pics and screenshots
@@ -15,7 +16,7 @@ import profilePic from '../img/portfolio pic.jpg';
 export default function Home(){
     return (
         <div name='home' className='w-full h-screen'>
-
+    
             {/* container */}
             <div className='max-w-[1000px] mx-auto px-8 pt-[200px] flex flex-row justify-center content-center'>
                 <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />

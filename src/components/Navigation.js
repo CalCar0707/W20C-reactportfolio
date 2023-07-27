@@ -15,7 +15,7 @@ export default function Navigation() {
            <div>
                 <ul className='hidden md:flex'>
                     <a href="#about-me">
-                        <li>About Me</li>
+                        <li>About</li>
                         </a>
                     <a href="#portfolio">
                         <li>Portfolio</li>
