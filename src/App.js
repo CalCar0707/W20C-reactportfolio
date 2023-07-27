@@ -6,6 +6,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
+import Skills from './components/Skills';
 
 import Background from './img/bg-1.jpg';
 
@@ -16,6 +17,7 @@ function App() {
       <Navigation />
       <Home />
       <About />
+      <Skills />
       {/* </div> */}
   </div>
   )

@@ -22,7 +22,7 @@ export default function Home(){
                 <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />
                 <div className='flex flex-col justify-center '>
                 <p>Hello, my name is</p>
-                <img src={Logo} className=''/>
+                <img className='h-[100px] py-[8px]' src={Logo} />
                 {/* <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1> */}
                 <h2>I'm a Full Stack Developer.</h2>
                 {/* <p>small about me section</p> */}
