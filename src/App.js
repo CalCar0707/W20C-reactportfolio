@@ -8,8 +8,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
+import Contact from './components/Contact';
 
-import Background from './img/bg-1.jpg';
+// import Background from './img/bg-1.jpg';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <About />
       <Skills />
       <Work />
+      <Contact />
       {/* </div> */}
   </div>
   )
