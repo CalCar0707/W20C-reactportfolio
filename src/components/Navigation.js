@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from 'react-icons/f
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Logo from '../img/CB-logo-4.1.png';
+import {Link} from 'react-scroll';
 
 export default function Navigation() {
     const [nav, setNav] = useState(false)
@@ -14,18 +15,35 @@ export default function Navigation() {
            {/* menu */}
            <div>
                 <ul className='hidden md:flex'>
-                    <a href="#about-me">
-                        <li>About</li>
-                        </a>
-                    <a href="#portfolio">
-                        <li>Portfolio</li>
-                        </a>
-                    <a href="#contact-form">
-                        <li>Contact</li>
-                        </a>
-                    <a href="#resume">
-                        <li>Resume</li>
-                        </a>
+                        <li>
+                        <Link to="home" smooth={true} duration={500} >
+                            Home
+                        </Link>
+                        </li>
+
+                        <li>
+                        <Link to="about" smooth={true} duration={500} >
+                            About
+                        </Link>
+                        </li>
+
+                        <li>
+                        <Link to="skills" smooth={true} duration={500} >
+                            Skills
+                        </Link>
+                        </li>
+                        <li>
+                        <Link to="work" smooth={true} duration={500} >
+                            Portfolio
+                        </Link>
+                        </li>
+                        
+                        <li>
+                        <Link to="contact" smooth={true} duration={500} >
+                            Contact
+                        </Link>
+                        </li>
+                
                 </ul>
             </div>
 
