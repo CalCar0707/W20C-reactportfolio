@@ -1,16 +1,11 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
 import Logo from '../img/CB-sig-2.1.png';
-import Background from '../img/bg-1.jpg';
-import Form from "./Form";
+// import Background from '../img/bg-1.jpg';
+// import Form from "./Form";
 
-//import pics and screenshots
+
 import profilePic from '../img/portfolio pic.jpg';
-// import weatherMe from '../img/weatherme-screenshot.png';
-// import food4Thought from '../img/Food4thought-screenshot.png';
-// import scheduler from '../img/scheduler-screenshot.png';
-// import weather from '../img/weatherdash-screenshot.png';
-// import movieSnackers from '../img/moviesnackersscreenshot.png';
 
 
 export default function Home(){
