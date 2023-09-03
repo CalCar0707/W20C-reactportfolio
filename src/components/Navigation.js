@@ -34,7 +34,7 @@ export default function Navigation() {
                         </li>
                         <li>
                         <Link to="work" smooth={true} duration={500} >
-                            Portfolio
+                            Work
                         </Link>
                         </li>
                         
@@ -55,18 +55,30 @@ export default function Navigation() {
             {/* mobile menu */}
             <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-600 flex flex-col justify-center items-center'}>
             <ul>
-                    <a href="#about-me">
-                        <li className='py-6 text-3xl'>About Me</li>
-                        </a>
-                    <a href="#portfolio">
-                        <li className='py-6 text-3xl'>Portfolio</li>
-                        </a>
-                    <a href="#contact-form">
-                        <li className='py-6 text-3xl'>Contact</li>
-                        </a>
-                    <a href="#resume">
-                        <li className='py-6 text-3xl'>Resume</li>
-                        </a>
+                        <li className='py-6 text-3xl'>
+                        <Link to="home" smooth={true} duration={500} >
+                            Home
+                        </Link>
+                        </li>
+                        
+                        <li className='py-6 text-3xl'>
+                        <Link to="about" smooth={true} duration={500} >
+                            About
+                        </Link>
+                        </li>
+                        
+                        <li className='py-6 text-3xl'>
+                        <Link to="work" smooth={true} duration={500} >
+                            Work
+                        </Link>
+                        </li>
+                    
+                        <li className='py-6 text-3xl'>
+                        <Link to="contact" smooth={true} duration={500} >
+                            Contact
+                        </Link>
+                        </li>
+                        
                 </ul>
             </div>
 
