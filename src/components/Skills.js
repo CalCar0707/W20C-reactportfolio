@@ -12,7 +12,7 @@ import Tailwind from '../img/tailwind.png';
 
 export default function Skills() {
     return (
-        <div name='skills' className='w-full h-screen '>
+        <div name='skills' className='w-full h-screen bg-[#f7f7f7]'>
           
           {/* container */}
           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
