@@ -12,9 +12,9 @@ export default function Work() {
     return (
         <div name='work' className='w-full md:h-screen bg-[#f7f7f7]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-teal-600'>Work</p>
-                <p className='py-6'>Check out some of my recent work.</p>
+            <div >
+                <p className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> Work</p>
+                <p className='text-3xl py-[50px]'>// Check out some of my recent work.</p>
             </div>
 
             {/* Container for projects */}
