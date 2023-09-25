@@ -19,7 +19,12 @@ export default function About(){
                 </div>
                 <div>
                     <p className='text-2xl'>
-                        ADD DETAILED ABOUT Me
+                    I am a Full Stack Web Developer with a background in Fraud Prevention. I earned my certificate in 
+                    Full Stack Web Development from the University of Texas at Austin Bootcamp.
+                    A few of my strengths include user experience, multitasking, and efficiency. During my education, 
+                    I gained experience with several languages and technologies including but not limited  to HTML, 
+                    CSS, JavaScript ES6+, Node.js, SQL, NoSQL, GraphQL, Git Version Control, React.js, GitHub, jQuery, Figma, and RESTful APIs. 
+
                     </p>
                 </div>
                 </div>
