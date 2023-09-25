@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 
 // import Background from './img/bg-1.jpg';
 
-function App() {
+export default function App() {
   return (
     <div>
       {/* <div style={{backgroundImage: `url(${Background})`}} className='max-w- h-screen'> */}
@@ -27,4 +27,4 @@ function App() {
   )
 };
 
-export default App;
+
