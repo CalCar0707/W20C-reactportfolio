@@ -18,7 +18,7 @@ export default function Skills() {
           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'>Experience</p>
-                <p className='text-3xl py-4 pt-[50px]'> // These are a few of the technologies I work with.</p>
+                <p className='text-2xl py-4 pt-[50px]'> // These are a few of the technologies I work with.</p>
             </div> 
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

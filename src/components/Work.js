@@ -14,7 +14,7 @@ export default function Work() {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div >
                 <p className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> Work</p>
-                <p className='text-3xl py-[50px]'>// Check out some of my recent work.</p>
+                <p className='text-2xl py-[50px]'>// Check out some of my recent work.</p>
             </div>
 
             {/* Container for projects */}

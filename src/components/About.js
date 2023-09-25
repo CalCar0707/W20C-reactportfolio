@@ -1,6 +1,4 @@
-import React from 'react';
-
-import AboutImg from '../img/about-sig.png';
+import React from 'react';;
 
 export default function About(){
     return (
@@ -14,11 +12,11 @@ export default function About(){
             
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-                <div className='sm:text-right text-3xl font-bold'>
+                <div className='sm:text-right text-2xl font-bold'>
                     <p>Hello, I'm Callie. Nice to meet you. Please take a look around.</p>
                 </div>
                 <div>
-                    <p className='text-2xl'>
+                    <p>
                     I am a Full Stack Web Developer with a background in Fraud Prevention. I earned my certificate in 
                     Full Stack Web Development from the University of Texas at Austin Bootcamp.
                     A few of my strengths include user experience, multitasking, and efficiency. During my education, 
