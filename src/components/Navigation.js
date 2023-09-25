@@ -14,7 +14,7 @@ export default function Navigation() {
                 <img src={Logo} alt='Logo Image' style={{width: '250px'}} className='pl-[30px] pt-1'/>
            {/* menu */}
            <div>
-                <ul className='hidden md:flex'>
+                <ul className='hidden md:flex text-2xl pr-[30px]'>
                         <li>
                         <Link to="home" smooth={true} duration={500} >
                             Home

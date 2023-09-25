@@ -19,7 +19,8 @@ export default function Home(){
                 <h1 className='text-5xl sm:text-7xl font-bold'>Callie Baliles</h1>
                 <h2 className='text-3xl'>I'm a Full Stack Developer.</h2>
                 <p className='text-2xl pt-1'>   I graduated the University of Texas at Austin Full Stack Web Development Bootcamp. During my education, 
-                I learned the languages and skills required to build a fully functional website from the front-end to the back-end.</p>
+                I learned the languages and skills required to build a fully functional web application. I am passionate about 
+                providing a great user experience from front-end to back-end, utilizing best practices.</p>
                 <div>
                     <button className='text-2xl border-2 px-6 py-3 my-2 flex items-center'>
                         <Link to="work">View Work </Link><HiArrowNarrowRight className='ml-3' /></button>
