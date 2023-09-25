@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
-import Logo from '../img/CB-logo-4.1.png';
+import Logo from '../img/Logo-1.png';
 import {Link} from 'react-scroll';
 
 export default function Navigation() {
@@ -10,8 +10,8 @@ export default function Navigation() {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-teal-600'>
-                <img src={Logo} alt='Logo Image' style={{width: '120px'}} className='pl-[40px]'/>
+        <div className='fixed w-full h-[100px] flex justify-between items-center px-4 bg-[#0a192f] text-[#f7f7f7]'>
+                <img src={Logo} alt='Logo Image' style={{width: '250px'}} className='pl-[30px] pt-1'/>
            {/* menu */}
            <div>
                 <ul className='hidden md:flex'>
@@ -54,7 +54,7 @@ export default function Navigation() {
             </div>
 
             {/* mobile menu */}
-            <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-teal-600 flex flex-col justify-center items-center'}>
+            <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-[#f7f7f7] flex flex-col justify-center items-center'}>
             <ul>
                         <li className='py-6 text-3xl'>
                         <Link onClick={handleClick} to="home" smooth={true} duration={500} >

@@ -1,6 +1,6 @@
 import React from 'react';
 import {HiArrowNarrowRight} from 'react-icons/hi';
-import Logo from '../img/CB-sig-2.1.png';
+// import Logo from '../img/Cal-Bal-dark-2.jpg';
 import {Link} from 'react-scroll';
 
 import profilePic from '../img/portfolio pic.jpg';
@@ -15,8 +15,8 @@ export default function Home(){
                 <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />
                 <div className='flex flex-col justify-center '>
                 <p>Hello, my name is</p>
-                <img className='h-[100px] py-[8px]' src={Logo} />
-                {/* <h1 className='text-4xl sm:text-7xl font-bold'>Callie Baliles</h1> */}
+                {/* <img className='h-[80px] py-[8px]' src={Logo} /> */}
+                <h1 className='text-4xl sm:text-7xl'>Callie Baliles</h1>
                 <h2>I'm a Full Stack Developer.</h2>
                 <p>I graduated the University of Texas at Austin Full Stack Web Development Bootcamp. During my education, 
                 I learned the languages and skills required to build a fully functional website from the front-end to the back-end. Utilizing

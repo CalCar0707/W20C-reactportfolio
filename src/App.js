@@ -10,19 +10,17 @@ import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
 
-// import Background from './img/bg-1.jpg';
 
 export default function App() {
   return (
     <div>
-      {/* <div style={{backgroundImage: `url(${Background})`}} className='max-w- h-screen'> */}
       <Navigation />
       <Home />
       <About />
       <Skills />
       <Work />
       <Contact />
-      {/* </div> */}
+     
   </div>
   )
 };

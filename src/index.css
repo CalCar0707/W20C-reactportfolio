@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,12 +15,12 @@
   -moz-osx-font-smoothing: grayscale;
   margin-top: 90px;
   padding: 30px;
-}
+} */
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
+}  */
 
 .profilepic {
   border-radius: 50%;
@@ -25,6 +29,9 @@ code {
 }
 
 @layer base {
+  body {
+    @apply font-[Raleway];
+  }
   li {
     @apply px-4;
     @apply cursor-pointer;
