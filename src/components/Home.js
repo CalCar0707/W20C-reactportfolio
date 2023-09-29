@@ -11,7 +11,7 @@ export default function Home(){
     
             {/* container */}
             <div className='max-w-[1000px] mx-auto px-8 pt-[200px] flex flex-row justify-center content-center '>
-                <img src={profilePic} className='profilepic pr-10 ' alt='developer pic' />
+                <img src={profilePic} className='w-[230px] h-[300px] sm:w-[430px] sm:h-[500px] pr-10' alt='developer pic' />
                 <div className='flex flex-col justify-center '>
                 <p className='text-3xl'>Hello, my name is</p>
         

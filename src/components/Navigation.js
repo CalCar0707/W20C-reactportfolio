@@ -11,7 +11,7 @@ export default function Navigation() {
 
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-[#f7f7f7]'>
-                <img src={Logo} alt='Logo Image' style={{width: '225px'}} className='pl-[30px] pt-1 sm:pl-[10px]'/>
+                <img src={Logo} alt='Logo Image' style={{width: '225px' }} className='pl-[30px] pt-1 '/>
            {/* menu */}
            <div>
                 <ul className='hidden md:flex text-2xl pr-[30px]'>
@@ -104,7 +104,7 @@ export default function Navigation() {
                             GitHub <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335]'>
+                    <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335] '>
                         <a className='flex justify-between items-center w-full'
                         href='/'>
                             {/* still need to add email link */}
