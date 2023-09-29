@@ -12,12 +12,12 @@ import Tailwind from '../img/tailwind.png';
 
 export default function Skills() {
     return (
-        <div name='skills' className='w-full h-screen bg-[#f7f7f7]'>
+        <div name='skills' className='w-full h-screen bg-[#f7f7f7] pl-[100px]'>
           
           {/* container */}
           <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
-                <p className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'>Experience</p>
+                <p className='text-5xl sm:text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'>Experience</p>
                 <p className='text-2xl py-4 pt-[50px]'> // These are a few of the technologies I work with.</p>
             </div> 
 

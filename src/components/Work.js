@@ -10,10 +10,10 @@ import codingQuiz from '../img/coding-quiz.png';
 
 export default function Work() {
     return (
-        <div name='work' className='w-full md:h-screen bg-[#f7f7f7]'>
+        <div name='work' className='w-full md:h-screen bg-[#f7f7f7] pl-[100px]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div >
-                <p className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> Work</p>
+                <p className='text-5xl sm:text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> Work</p>
                 <p className='text-2xl py-[50px]'>// Check out some of my recent work.</p>
             </div>
 

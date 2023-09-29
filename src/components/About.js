@@ -2,11 +2,11 @@ import React from 'react';;
 
 export default function About(){
     return (
-        <div name='about' className='w-full h-screen bg-[#f7f7f7]'>
+        <div name='about' className='w-full h-screen bg-[#f7f7f7] pl-[100px]'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
-            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
+            <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 '>
                 <div className='sm:text-right pb-8 pl-4'>
-                    <div className='text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> About </div>
+                    <div className='text-5xl sm:text-6xl font-bold inline pb-[8px] border-b-4 border-[#0a192f]'> About </div>
                     
                 </div>
             
