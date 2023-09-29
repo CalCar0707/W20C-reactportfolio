@@ -6,22 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap');
 
 
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  margin-top: 90px;
-  padding: 30px;
-} */
-
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}  */
-
 .profilepic {
   border-radius: 50%;
   width: 430px;
@@ -51,32 +35,4 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   )!important;
-}
-
-#portfolio {
-  margin-top: 100px;
-  margin-left: 60px;
-}
-
-.projectpic {
-  display: inline-block;
-  width: 40%;
-}
-
-.input-form {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px;
-}
-
-#contact-form {
-  margin-left: 60px;
-}
-
-#resume {
-  margin-left: 60px;
-}
-.footer {
-  display: inline;
-  text-align: center;
 }
