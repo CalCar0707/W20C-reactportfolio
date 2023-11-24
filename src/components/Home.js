@@ -7,10 +7,10 @@ import profilePic from '../img/portfolio pic.jpg';
 
 export default function Home(){
     return (
-        <div name='home' className='w-full h-screen bg-[#f7f7f7]'>
+        <div name='home' className='w-full  bg-[#f7f7f7]'>
     
             {/* container */}
-            <div className='max-w-[1000px] mx-auto pl-[100px] px-8 pt-[200px] grid grid-cols-1 sm:flex flex-row justify-center content-center '>
+            <div className='max-w-[1000px] mx-auto pl-[100px] px-8 py-[200px] pb-8 grid grid-cols-1 sm:flex flex-row justify-center content-center '>
                 <img src={profilePic} className='w-[330px] h-[400px] sm:w-[430px] sm:h-[500px] pr-10' alt='developer pic' />
                 <div className='flex flex-col justify-center '>
                     <p className='text-3xl pt-[30px]'>Hello, my name is</p>
