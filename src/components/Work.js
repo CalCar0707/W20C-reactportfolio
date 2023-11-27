@@ -22,12 +22,13 @@ export default function Work() {
             <div 
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                  {/* Project 1- movie snackers */}
+                  {/* Project 1- pw generator */}
                   <div style={{backgroundImage: `url(${pwGenerator})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
+                            Random PW Generator
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://calcar0707.github.io/W3C-javascript/'>
@@ -40,8 +41,26 @@ export default function Work() {
                     </div>
                     </div>
 
+                {/* Project 2- workday scheduler */}
+            <div style={{backgroundImage: `url(${scheduler})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
+                   
+                   {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold tracking-wider'>
+                            Workday Scheduler
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://calcar0707.github.io/W5C-scheduler/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/CalCar0707/W5C-scheduler'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
                 
-                {/* Project 1- WeatherMe */}
+                {/* Project 3- WeatherMe */}
                 <div style={{backgroundImage: `url(${weatherMe})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    {/* hover effects */}
@@ -76,24 +95,6 @@ export default function Work() {
                         </div>
                     </div>
             </div>
-
-            {/* Project 3- workday scheduler */}
-            <div style={{backgroundImage: `url(${scheduler})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
-                   
-                   {/* hover effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold tracking-wider'>
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href='https://calcar0707.github.io/W5C-scheduler/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href='https://github.com/CalCar0707/W5C-scheduler'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
 
                     {/* Project 4- weather dashboard */}
                     <div style={{backgroundImage: `url(${weather})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
