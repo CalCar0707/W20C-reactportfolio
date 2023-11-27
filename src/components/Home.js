@@ -22,7 +22,7 @@ export default function Home(){
                     providing a great user experience from front-end to back-end, utilizing best practices.</p>
                 <div>
                     <button className=' border-2 px-6 py-3 my-2 flex items-center'>
-                        <Link to="work">View Work </Link><HiArrowNarrowRight className='ml-3' /></button>
+                        <Link to="projects">View Work </Link><HiArrowNarrowRight className='ml-3' /></button>
                 </div>
                 </div>
             </div>
