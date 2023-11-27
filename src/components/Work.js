@@ -1,6 +1,7 @@
 import React from 'react';
 
 //import images
+import pwGenerator from '../img/pw-gen-screenshot.png';
 import weatherMe from '../img/weatherme-screenshot.png';
 import food4Thought from '../img/Food4thought-screenshot.png';
 import scheduler from '../img/scheduler-screenshot.png';
@@ -20,6 +21,25 @@ export default function Work() {
             {/* Container for projects */}
             <div 
             className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+
+                  {/* Project 1- movie snackers */}
+                  <div style={{backgroundImage: `url(${pwGenerator})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
+                   
+                   {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold tracking-wider'>
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href='https://calcar0707.github.io/W3C-javascript/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/CalCar0707/W3C-javascript'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-teal-600 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+
                 
                 {/* Project 1- WeatherMe */}
                 <div style={{backgroundImage: `url(${weatherMe})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -27,7 +47,6 @@ export default function Work() {
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://bravenbright.github.io/WeatherMe/#gsc.tab=0'>
@@ -46,7 +65,6 @@ export default function Work() {
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://f4t-db.herokuapp.com/'>
@@ -65,7 +83,6 @@ export default function Work() {
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://calcar0707.github.io/W5C-scheduler/'>
@@ -84,7 +101,6 @@ export default function Work() {
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://calcar0707.github.io/W6C-weather/'>
@@ -103,7 +119,6 @@ export default function Work() {
                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://movie-snackers.herokuapp.com/'>
@@ -116,13 +131,13 @@ export default function Work() {
                     </div>
                     </div>
 
-                    {/* Project 6- code quiz */}
+                    {/* Project 6- code quiz
                     <div style={{backgroundImage: `url(${codingQuiz})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
-                   {/* hover effects */}
+                   {/* hover effects 
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
-                        React JS Application
+                        //React JS Application
                         </span>
                         <div className='pt-8 text-center'>
                             <a href='https://calcar0707.github.io/W4C-code-quiz/'>
@@ -133,7 +148,7 @@ export default function Work() {
                             </a>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
         </div>
         </div>
         </div>

@@ -7,7 +7,7 @@ import profilePic from '../img/portfolio pic.jpg';
 
 export default function Home(){
     return (
-        <div name='home' className='w-full  bg-[#f7f7f7]'>
+        <div name='home' className='w-full bg-[#f7f7f7]'>
     
             {/* container */}
             <div className='max-w-[1000px] mx-auto pl-[100px] px-8 py-[200px] pb-8 grid grid-cols-1 sm:flex flex-row justify-center content-center '>
