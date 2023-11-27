@@ -34,8 +34,8 @@ export default function Navigation() {
                         </li>
 
                         <li>
-                        <Link to="work" smooth={true} duration={500} >
-                            Work
+                        <Link to="projects" smooth={true} duration={500} >
+                            Projects
                         </Link>
                         </li>
                         
@@ -75,8 +75,8 @@ export default function Navigation() {
                         </li>
                         
                         <li className='py-6 pl-[30px] text-3xl border-b-2 border-[#f7f7f7]'>
-                        <Link onClick={handleClick} to="work" smooth={true} duration={500} >
-                            Work
+                        <Link onClick={handleClick} to="projects" smooth={true} duration={500} >
+                            Projects
                         </Link>
                         </li>
                     
