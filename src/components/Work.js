@@ -2,12 +2,12 @@ import React from 'react';
 
 //import images
 import pwGenerator from '../img/pw-gen-screenshot.png';
-import weatherMe from '../img/weatherme-screenshot.png';
-import food4Thought from '../img/Food4thought-screenshot.png';
+//import weatherMe from '../img/weatherme-screenshot.png';
+//import food4Thought from '../img/Food4thought-screenshot.png';
 import scheduler from '../img/scheduler-screenshot.png';
 import weather from '../img/weatherdash-screenshot.png';
-import movieSnackers from '../img/moviesnackersscreenshot.png';
-import codingQuiz from '../img/coding-quiz.png';
+//import movieSnackers from '../img/moviesnackersscreenshot.png';
+//import codingQuiz from '../img/coding-quiz.png';
 
 export default function Work() {
     return (
@@ -60,10 +60,10 @@ export default function Work() {
                     </div>
                     </div>
                 
-                {/* Project 3- WeatherMe */}
+                {/* Project 3- WeatherMe -- NOT WORKING PROPERLY
                 <div style={{backgroundImage: `url(${weatherMe})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
-                   {/* hover effects */}
+                   {/* hover effects 
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
                         </span>
@@ -76,12 +76,12 @@ export default function Work() {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
-                {/* Project 2- food4thought */}
+                {/* Project 2- food4thought --NOT WORKING PROPERLY
                 <div style={{backgroundImage: `url(${food4Thought})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
-                   {/* hover effects */}
+                   {/* hover effects 
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
                         </span>
@@ -94,9 +94,9 @@ export default function Work() {
                             </a>
                         </div>
                     </div>
-            </div>
+            </div> */}
 
-                    {/* Project 4- weather dashboard */}
+                    {/* Project 4- weather dashboard -- NOT WORKING PROPERLY, left for symetry*/}
                     <div style={{backgroundImage: `url(${weather})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
                    {/* hover effects */}
@@ -114,10 +114,10 @@ export default function Work() {
                     </div>
                     </div>
 
-                    {/* Project 5- movie snackers */}
+                    {/* Project 5- movie snackers -- NOT WORKING PROPERLY
                     <div style={{backgroundImage: `url(${movieSnackers})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
                    
-                   {/* hover effects */}
+                   {/* hover effects 
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold tracking-wider'>
                         </span>
@@ -130,7 +130,7 @@ export default function Work() {
                             </a>
                         </div>
                     </div>
-                    </div>
+                    </div> */}
 
                     {/* Project 6- code quiz
                     <div style={{backgroundImage: `url(${codingQuiz})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
