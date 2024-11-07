@@ -106,7 +106,7 @@ export default function Navigation() {
                     </li>
                     <li className='w-[160px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EA4335] '>
                         <a className='flex justify-between items-center w-full'
-                        href='/'>
+                        href='mailto:callienicole0419@gmail.com'>
                             {/* still need to add email link */}
                             Email <HiOutlineMail size={30} />
                         </a>
